@@ -3,12 +3,6 @@ void setup()
 {
   noLoop();
   size(300, 300);
-  int one = 0;
-  int two = 0;
-  int three = 0;
-  int four = 0;
-  int five = 0;
-  int six = 0;
 }
 void draw()
 {
@@ -20,17 +14,10 @@ void draw()
       die1.roll();
       die1.show();
       sum += die1.number;
-      one += die1.one;
-      two += die1.two;
-      three += die1.three;
-      four += die1.four;
-      five += die1.five;
-      six += die1.six;
     }
   }
   fill(0, 0, 0);
   text("Total: "+sum, 115, 15);
-  text("# of 1's:" +one, 5,15);
 }
 void mousePressed()
 {
