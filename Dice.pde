@@ -3,6 +3,12 @@ void setup()
 {
   noLoop();
   size(300, 300);
+  int one = 0;
+  int two = 0;
+  int three = 0;
+  int four = 0;
+  int five = 0;
+  int six = 0;
 }
 void draw()
 {
@@ -34,19 +40,12 @@ class Die //models one single dice cube
 {
   //variable declarations here
   int myX, myY, number;
-  int one, two, three, four, five, six;
   Die(int x, int y) {
     //constructor
     {
       //variable initializations here
       myX = x;
       myY = y;
-      one = 0;
-      two = 0;
-      three = 0;
-      four = 0;
-      five = 0;
-      six = 0;
     }
   }
   void roll()
