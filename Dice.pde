@@ -24,7 +24,7 @@ void draw()
   }
   fill(0, 0, 0);
   text("Total: "+sum, 115, 15);
-  text("# of 1's:" +one, 0,0);
+  text("# of 1's:" +one, 5,15);
 }
 void mousePressed()
 {
